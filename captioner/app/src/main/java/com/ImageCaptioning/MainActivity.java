@@ -81,7 +81,6 @@ public class MainActivity extends Activity {
         System.loadLibrary("captioner_jni");
     }
 
-
     // Storage Permissions
     private static final int REQUEST_EXTERNAL_STORAGE = 1;
     private static String[] PERMISSIONS_STORAGE = {
