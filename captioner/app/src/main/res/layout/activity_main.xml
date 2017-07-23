@@ -12,7 +12,6 @@
         android:layout_height="fill_parent"
         />
 
-
     <Button
         android:id="@+id/id_btnSelect"
         android:layout_width="wrap_content"
