@@ -12,26 +12,6 @@
         android:layout_height="fill_parent"
         />
 
-    <!--<ImageView
-        android:id="@+id/ivCaptured"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:visibility="invisible" />-->
-
-
-    <!--<Button
-        android:id="@+id/id_btnCamera"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:elevation="0dp"
-        android:visibility="visible"
-        style="@android:style/Widget.Button.Small"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:background="@android:drawable/ic_menu_camera"
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle" />-->
-
-
     <Button
         android:id="@+id/id_btnSelect"
         android:layout_width="wrap_content"

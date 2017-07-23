@@ -67,10 +67,11 @@ public class MainActivity extends Activity {
     private Captioner captioner;
     private TextToSpeech tts;
     File sdcard = Environment.getExternalStorageDirectory();
-    String modelDir = "/sdcard/Captioner";
+    //different configs
     //String modelDir = "/Caffe_Mobile";
-    String cnn_modelProto = modelDir + "/cnn_deploy.prototxt";
     //String cnn_modelProto = modelDir + "/deploy.prototxt";
+    String modelDir = "/sdcard/Captioner";
+    String cnn_modelProto = modelDir + "/cnn_deploy.prototxt";
     String lstm_modelProto = modelDir + "/lstm_deploy.prototxt";
     String modelBinary = modelDir + "/cnn_lstm.caffemodel";
     String vocabulary = modelDir + "/vocabulary.txt";
