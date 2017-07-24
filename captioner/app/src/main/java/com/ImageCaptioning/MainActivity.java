@@ -171,7 +171,6 @@ public class MainActivity extends Activity {
                 }
         );
 
-
         //tts.setLanguage(Locale.US);
         //tts.speak("a boy is playing football" +
         //       "aa", TextToSpeech.QUEUE_FLUSH, null);
